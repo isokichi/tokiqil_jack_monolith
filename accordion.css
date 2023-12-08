@@ -6,6 +6,37 @@
   padding-bottom: 20px;
 }
 
+.answer_area {
+  margin: 20px 0px 40px ;
+  text-align: center;
+}
+
+.submit_button {
+  color: #fff;
+  background-color: #E60012;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  padding: 3px 7px;
+}
+
+.text_area {
+  padding: 3px 7px;
+  border-radius: 5px;
+  border: 1px solid #E60012;
+}
+.text_area:focus {
+  padding: 1px 5px;
+  outline: 0;
+  border: 3px solid #E60012;
+}
+
+.attention {
+  margin-top: 0px;
+  font-size: 75%;
+}
+
+
 .hint {
   max-width: 1024px;
   margin: auto;
@@ -30,16 +61,16 @@
   }
   .accordion .Q {
     background-color: #ffffff;
-    border: 1px solid #ff0000;
-    color: #ff0000;
+    border: 1px solid #E60012;
+    color: #E60012;
   }
   .accordion .A {
     background-color: #ffffff;
-    border: #ff0000;
-    color: #ff0000;
+    border: #E60012;
+    color: #E60012;
   }
   .accordion .accordion_inner{
-    border: 1px solid #ff0000;
+    border: 1px solid #E60012;
   }
   .accordion .accordion_inner .accordion{
     width: 95%;
@@ -54,8 +85,8 @@
     right: 5%;
     width: 40px;
     height: 40px;
-    background: #ff0000;
-    /* border: 1px solid #ff0000; */
+    background: #E60012;
+    /* border: 1px solid #E60012; */
     margin-top: -20px;
     box-sizing: border-box;
     -webkit-transform: rotate(45deg);
@@ -149,6 +180,7 @@
     max-width: 1024px;
     margin: 0 auto;
     padding: 20px 20px 500px;
+    color: #E60012;
   }
   .section p._a {
     font-size: 12px;
