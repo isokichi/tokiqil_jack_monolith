@@ -37,8 +37,11 @@ var answer_list = [
 
 function submitAnswer(){
   var answer = document.getElementById("answer").value;
-  console.log(answer)
   if (answer_list.includes(answer)) {
     window.location.href = "clear.html";
   }
+}
+
+function tweetClear(){
+  window.location.href = "https://twitter.com/intent/tweet?text=ESC%C3%97TOKIQIL%0A%E3%80%90MONOLITH%EF%BC%9ARED%E3%80%91%E3%82%92%E8%A7%A3%E6%98%8E%E3%81%97%E3%81%9F%EF%BC%81";
 }
