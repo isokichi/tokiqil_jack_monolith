@@ -13,12 +13,18 @@
   width: 90%;
 }
 
+table{
+  margin:0 auto;
+  }
+  
 .answer_area {
   margin: 20px 0px 40px ;
   text-align: center;
 }
 
-.submit_button ,.tweet_button{
+.submit_button{
+  padding:10px;
+  font-size: 18px; 
   color: #fff;
   background-color: #E60012;
   border: none;
@@ -28,20 +34,16 @@
 }
 
 .text_area {
+  height: 25px;
+  font-size: 18px; 
   padding: 3px 7px;
   border-radius: 5px;
   border: 1px solid #E60012;
 }
-/* .text_area:focus {
+.text_area:focus {
   padding: 1px 5px;
   outline: 0;
   border: 3px solid #E60012;
-} */
-.text_area:focus {
-  outline: none;
-  padding: 3px 7px;
-  border-radius: 5px;
-  border: 1px solid #E60012;
 }
 
 .attention {
@@ -50,6 +52,14 @@
   text-align: center;
 }
 
+.tweet_button{
+  color: #fff;
+  background-color: #E60012;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  padding: 3px 7px;
+}
 
 .hint {
   max-width: 1024px;
