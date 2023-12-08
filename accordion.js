@@ -8,7 +8,7 @@ $(function(){
     });
   });
 
-answer_list = [
+var answer_list = [
   "鯖読んで無い？",
   "鯖読んでない？",
   "鯖よんで無い？",
@@ -36,5 +36,9 @@ answer_list = [
 ]
 
 function submitAnswer(){
-  console.log("submit!!")
+  var answer = document.getElementById("answer").value;
+  console.log(answer)
+  if (answer_list.includes(answer)) {
+    window.location.href = "clear.html";
+  }
 }
