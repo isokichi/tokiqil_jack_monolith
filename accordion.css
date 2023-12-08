@@ -3,9 +3,6 @@
     margin: 0 auto;
   }
   .accordion .accordion_header {
-    background-color: #000000;
-    border-bottom: 1px solid #fff;
-    color: #fff;
     font-size: 26px;
     font-weight: bold;
     padding: 20px 11%;
@@ -15,17 +12,22 @@
     cursor: pointer;
     transition-duration: 0.2s;
   }
-  .accordion .accordion_inner .accordion_header {
-    background-color: #101010;
+  .accordion .Q {
+    background-color: #ffffff;
+    border: 1px solid #ff0000;
+    color: #ff0000;
   }
-  .accordion .accordion_inner .accordion_inner .accordion_header {
-    background-color: #202020;
+  .accordion .A {
+    background-color: #ffffff;
+    border: #ff0000;
+    color: #ff0000;
   }
-  .accordion .accordion_inner .accordion_inner .accordion_inner .accordion_header {
-    background-color: #303030;
+  .accordion .accordion_inner{
+    border: 1px solid #ff0000;
   }
-  .accordion .accordion_inner .accordion_inner .accordion_inner .accordion_inner .accordion_header {
-    background-color: #404040;
+  .accordion .accordion_inner .accordion{
+    width: 95%;
+    padding-bottom: 2.5%;
   }
   .accordion .accordion_header .i_box {
     display: flex;
