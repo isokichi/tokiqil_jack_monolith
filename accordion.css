@@ -13,6 +13,14 @@
   width: 90%;
 }
 
+.syuusei{
+  max-width: 1024px;
+  margin: auto;
+  display: block;
+  width: 40%;
+  padding-bottom: 70px;
+}
+
 table{
   margin:0 auto;
   }
